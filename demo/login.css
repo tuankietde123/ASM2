@@ -1,0 +1,129 @@
+/* login.css */
+
+body {
+    font-family: 'Lobster', cursive;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+    background-image: url('img/unnamed.jpg');
+    background-size: cover; /* Hiển thị hình nền sao cho nó che phủ toàn bộ phần nền */
+    background-position: center; /* Định vị hình nền ở giữa */
+    background-repeat: no-repeat; /* Ngăn lặp lại hình nền */
+}
+
+.container {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+}
+
+.login-form {
+    background-color:black;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+input {
+    /* Các thuộc tính hiện tại */
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 15px;
+
+    /* Thiết lập màu chữ là màu đen */
+    color: #000; /* hoặc color: black; */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.form-toggle {
+    text-align: center;
+}
+
+.form-toggle a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.form-toggle a:hover {
+    color: #0056b3;
+}
+/* Trong file login.css */
+.login__container {
+    position: relative; /* Thiết lập vị trí tương đối */
+  }
+  .login__logo {
+    position: absolute;
+    top: -200px;
+    left: -700px;
+    width: 200px;
+    height: auto;
+}
+h1 {
+    font-size: 28px;
+    text-align: center;
+    color:yellow; /* Đổi màu chữ của tiêu đề "LOGIN" */
+    margin-bottom: 20px;
+}
+
+.input-login-username,
+.input-login-password,
+.login__signInButton,
+.login__registerButton {
+    /* Các thuộc tính hiện tại */
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 15px;
+
+    /* Thêm thuộc tính mới */
+    color:blue; /* Đổi màu chữ */
+    font-family: 'Lobster', cursive;
+}
+h5.email-label,
+h5.password-label {
+    /* Các thuộc tính hiện tại */
+    color: blue; /* Đổi màu chữ của h5 */
+    font-family: 'Lobster', cursive;
+
+    /* Thêm thuộc tính mới */
+    font-size: 18px; /* Đổi kích thước font chữ */
+}
+/* login.css */
+
+/* ... (các phần CSS khác) */
+
+h5 {
+    /* Các thuộc tính hiện tại */
+    color:yellow; /* Đổi màu chữ của h5 */
+    font-family: 'Lobster', cursive;
+
+    /* Thêm thuộc tính mới */
+    font-size: 18px; /* Đổi kích thước font chữ */
+}

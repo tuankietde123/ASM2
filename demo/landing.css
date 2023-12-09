@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+*{
+    padding:0;margin:0;border:none;outline:none;box-sizing: border-box;
+    font-family: 'Inter', sans-serif; 
+}
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-image:url("img/top-5-thuc-don-nha-hang-au-sang-trong-ban-nhat-dinh-nen-thuong-thuc-202203160053007498.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.web {
+    width: 1344px;
+    height: 753px;
+    background:rgba(0,0,0,0.49);
+    backdrop-filter: blur(26px);
+    border-radius: 50px;
+    padding:0px 73px;
+    padding-top:43px;
+}
+
+
+.header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#fff;
+}
+
+.header .menu {
+    display: flex;
+    list-style: none;
+}
+
+.header .menu li {
+    margin-left:54px;
+    transition: 0.5s;
+}
+
+.header .menu li:hover {
+    color:#ff810d;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top:30px;
+}
+
+.content p {
+    color:#fff;
+    letter-spacing: 0.15em;
+}
+.left,.right {
+    width: 50%;
+    height: 100%;
+}
+
+.content .slogan {
+    border-left:7px solid #C4C4C4;
+    height: 150px;
+    margin-top:40px;
+    display: flex;
+    align-items: center;
+    padding-left:30px;
+}
+
+
+.content .slogan h1 {
+    font-size:36px;
+    color:#fff;
+}
+
+.content .slogan h1 span{
+    color:#ff810d;
+    font-size:80px;
+}
+
+
+.analyst {
+    height: 100px;
+    margin-top:40px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.analyst .item {
+    margin-right: 42px;
+}
+
+.analyst .item p {
+    margin-bottom:10px;
+}
+
+.see-more {
+    width: 308px;
+    height: 59px;
+    border-radius: 45px;
+    color:#fff;
+    background:black;
+    margin-top:50px;
+    transition:0.5s;
+}
+
+.see-more:hover {
+    background:#ff810d;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right .list-thumb{
+
+    width: 331px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 35px;
+    margin:0px auto;
+}
+.right .list-thumb li {
+    width: 20px;
+    height: 20px;
+    border:2px solid white;
+    margin:0px 20px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.right .list-thumb li.active {
+    border-radius: 0;
+    background:#ff810d;
+    transform:scale(1.5)
+}
+.header .menu li a {
+    font-family: 'Inter', sans-serif; 
+    font-weight: 500; 
+    font-size: 18px; 
+    color: #fff; 
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.header .menu li a:hover {
+    color: #ff810d; 
+}
